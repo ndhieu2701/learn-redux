@@ -1,3 +1,5 @@
+//tao reducer: noi xu ly cac action va tra ve cac state moi
+
 const reducer = (state = 0, action) => {
   switch (action.type) {
     case "deposit":
